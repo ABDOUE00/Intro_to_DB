@@ -1,4 +1,4 @@
--- Delete existing rows in the table
+-- Delete existing rows to avoid duplication
 DELETE FROM customers;
 
 -- Insert new rows

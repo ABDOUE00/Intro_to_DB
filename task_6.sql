@@ -1,10 +1,7 @@
-USE alx_book_store;
+DELETE FROM customers;
 
--- Optional: Delete existing rows to avoid duplication
-DELETE FROM customers WHERE customer_id IN (2, 3, 4);
-
--- Insert new rows
 INSERT INTO customers (customer_id, customer_name, email, address) VALUES
-(2, 'Blessing Malik', 'bmalik@sandtech.com', '124 Happiness Ave.'),
-(3, 'Obed Ehoneah', 'eobed@sandtech.com', '125 Happiness Ave.'),
-(4, 'Nehemial Kamolu', 'nkamolu@sandtech.com', '126 Happiness Ave.');
+(2, 'Blessing Malik', 'bmalik@sandtech.com', '124 Happiness  Ave.'),
+(3, 'Obed Ehoneah', 'eobed@sandtech.com', '125 Happiness  Ave.'),
+(4, 'Nehemial Kamolu', 'nkamolu@sandtech.com', '126 Happiness  Ave.');
+

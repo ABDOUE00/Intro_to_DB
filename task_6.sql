@@ -1,5 +1,7 @@
--- Delete existing rows to avoid duplication
-DELETE FROM customers;
+USE alx_book_store;
+
+-- Optional: Delete existing rows to avoid duplication
+DELETE FROM customers WHERE customer_id IN (2, 3, 4);
 
 -- Insert new rows
 INSERT INTO customers (customer_id, customer_name, email, address) VALUES
